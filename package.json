@@ -5,19 +5,42 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "server": "node server/server.js",
+    "dev": "concurrently \"npm run serve\" \"npm run server\""
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "blubird": "0.0.1-security",
+    "bluebird": "^3.7.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "vue": "^2.6.11",
+    "vue-server-renderer": "^2.6.11",
+    "vue-ssr-webpack-plugin": "^3.0.0",
+    "vuex": "^3.4.0",
+    "vuex-router-sync": "^5.0.0",
+    "webpack": "^4.43.0",
+    "webpack-merge": "^4.2.2",
+    "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-plugin-vuex": "^4.4.1",
     "@vue/cli-service": "~4.4.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "source-map-support": "^0.5.19",
+    "vue-router": "^3.3.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
