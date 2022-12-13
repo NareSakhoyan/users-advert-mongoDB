@@ -16,7 +16,7 @@
     "bluebird": "^3.7.2",
     "core-js": "^3.6.5",
     "cross-env": "^7.0.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongodb": "^3.5.8",
     "mongoose": "^5.9.18",
     "morgan": "^1.10.0",
